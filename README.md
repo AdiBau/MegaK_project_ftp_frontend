@@ -16,6 +16,5 @@ https://biuro.adibau.pl/ftp/html/
 ## Works on  Android ,    IPhone ,   PC ,  MAC
 Works on:   Android ,    IPhone ,   PC ,  MAC
 ## Screenshots
-SQL Data Base Screenshot from HidiSql
 ![App Screenshot](https://www.biuro.adibau.pl/zdjecia/login.png)
-
+![App Screenshot](https://www.biuro.adibau.pl/zdjecia/ftpView.png)
