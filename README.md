@@ -1,4 +1,6 @@
 # Frontend for FTP Home-Cloude Client
+Written for my daughter and wife 😄
+
 
 ## how to use
 
@@ -18,3 +20,4 @@ Works on:   Android ,    IPhone ,   PC ,  MAC
 ## Screenshots
 ![App Screenshot](https://www.biuro.adibau.pl/zdjecia/login.png)
 ![App Screenshot](https://www.biuro.adibau.pl/zdjecia/ftpView.png)
+![App Screenshot](https://www.biuro.adibau.pl/zdjecia/ftpOptions.png)
