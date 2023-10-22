@@ -1,0 +1,88 @@
+.divContainerSpiner {
+	box-sizing: border-box;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 999;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+.listki {
+	box-sizing: border-box;
+	display: block;
+	width: 0px;
+	height: 10px;
+	border: 2px solid black;
+	border-radius: 25%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-color: black;
+	transform-origin: center 14px;
+}
+
+.listek1 {
+	rotate: 0deg;
+	animation: list 1.5s infinite;
+}
+
+.listek2 {
+	animation: list 1.5s infinite 0.15s;
+	rotate: 36deg;
+}
+.listek3 {
+	rotate: 72deg;
+	animation: list 1.5s infinite 0.3s;
+}
+.listek4 {
+	animation: list 1.5s infinite 0.45s;
+	rotate: 108deg;
+}
+.listek5 {
+	rotate: 144deg;
+	animation: list 1.5s infinite 0.6s;
+}
+.listek6 {
+	rotate: 180deg;
+	animation: list 1.5s infinite 0.75s;
+}
+.listek7 {
+	rotate: 216deg;
+	animation: list 1.5s infinite 0.9s;
+}
+.listek8 {
+	animation: list 1.5s infinite 1.05s;
+	rotate: 252deg;
+}
+.listek9 {
+	rotate: 288deg;
+	animation: list 1.5s infinite 1.2s;
+}
+.listek10 {
+	rotate: 324deg;
+	animation: list 1.5s infinite 1.35s;
+	-webkit-animation: list 1.5s infinite 1.35s;
+}
+.listek1::after {
+	padding-left: 25px;
+	content: "Wczytuje....";
+	font-size: 16px;
+	animation: list 1.2s infinite linear;
+	-webkit-animation: list 1.2s infinite linear;
+}
+
+@keyframes list {
+	0% {
+		border-color: black;
+		color: black;
+	}
+	100% {
+		border-color: white;
+		color: white;
+	}
+}

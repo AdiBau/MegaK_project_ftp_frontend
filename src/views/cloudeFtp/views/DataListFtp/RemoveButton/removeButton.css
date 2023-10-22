@@ -1,0 +1,37 @@
+.RemoveView {
+	position: absolute;
+	display: grid;
+	margin: 0 auto;
+	padding: 5px 15px;
+	box-shadow: 0 0 10px red;
+	background-color: rgb(255, 100, 100);
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+}
+.RemoveButtonView {
+	display: grid;
+	width: 100%;
+	grid-template-columns: auto, auto;
+}
+.RemoveButton {
+	display: block;
+	margin: 5px auto;
+	width: auto;
+	background-color: black;
+	color: white;
+	padding: 2px 10px;
+	font-weight: bold;
+}
+.NotRemoveButton {
+	display: block;
+	margin: 5px auto;
+	width: auto;
+}
+
+.RemoveButton:active {
+	background-color: black;
+	color: white;
+}

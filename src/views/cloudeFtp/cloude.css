@@ -1,0 +1,12 @@
+#root {
+	background-color: #35bdf8;
+	min-height: 100vh;
+	width: 100vw;
+}
+
+.container {
+	width: 99%;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 60px;
+}

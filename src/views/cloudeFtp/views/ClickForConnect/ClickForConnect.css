@@ -1,0 +1,54 @@
+.ClickForConnect {
+	box-sizing: border-box;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 5px;
+	right: 70px;
+	width: 220px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	color: black;
+	animation: animated 0.7s linear infinite alternate;
+	-webkit-animation: animated 0.7s linear infinite alternate;
+}
+.ClickForConnect p {
+	font-size: 17px;
+	font-weight: bolder;
+	text-decoration: underline;
+	text-size-adjust: 10px;
+	padding: 0 8px;
+}
+
+@keyframes animated {
+	0% {
+		font-size: 8px;
+	}
+	100% {
+		font-size: 16px;
+	}
+}
+@keyframes animated {
+	0% {
+		font-size: 7px;
+	}
+	100% {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.ClickForConnect p {
+		font-size: 13px;
+	}
+	.ClickForConnect {
+		width: 180px;
+	}
+	.svg-inline--fa {
+		animation: animatedMin 0.7s linear infinite alternate;
+		-webkit-animation: animatedMin 0.7s linear infinite alternate;
+	}
+}

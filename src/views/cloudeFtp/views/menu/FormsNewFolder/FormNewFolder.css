@@ -1,0 +1,26 @@
+.formNewFolder {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: Grid;
+	grid-auto-columns: auto;
+	background-color: #dfdfdf;
+	padding: 8px 15px;
+	border: 2px solid #afafaf;
+	gap: 5px;
+}
+.formNewFolder label {
+	text-decoration: underline;
+}
+.formNewFolder input {
+	font-size: large;
+	padding: 1px 5px;
+	text-align: center;
+}
+.buttonsNewFolder {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 10%;
+	margin-top: 10px;
+}
