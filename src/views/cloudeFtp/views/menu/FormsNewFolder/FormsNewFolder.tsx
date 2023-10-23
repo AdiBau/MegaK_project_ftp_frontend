@@ -28,8 +28,7 @@ export const FormsNewFolder = (props: Props) => {
 		if (inputNewFolderValue.includes(".")) {
 			return toast.error("Wprowadź nazwe bez kropki");
 		}
-		try {
-			const url = encodeURIComponent(path);
+		try {			
 			const data = await fetch(Adress.newFolder, {
 				method: "put",
 				headers: {
