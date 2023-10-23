@@ -10,8 +10,12 @@ Any additional information goes here
 1. npm i
 2. run backend for this
 3. npm start
-## Demo
 
+## Backend
+
+https://github.com/AdiBau/MegaK_project_ftp_backend
+
+## Demo
 
 https://biuro.adibau.pl/ftp/html/
 
@@ -29,7 +33,7 @@ Downloading the file to your device by click on file or cloud
 
 ## To Do
 
-[font red]Delete the empty folder and its contents by long press
+Delete the empty folder and its contents by long press
 
 Adding more icons for different file extensions
 
